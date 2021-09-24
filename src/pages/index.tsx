@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
         {!loading && !data && (
           <button
-            className="flex items-center px-5 space-x-2 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-200 shadow-xl py-3 text-lg font-medium text-white bg-gradient-to-br from-gray-700 to-gray-900 hover:opacity-75 transition hover:scale-105 duration-250 ease-in-out active:scale-95"
+            className="flex items-center px-5 space-x-2 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-200 shadow-xl py-3 text-lg font-medium text-white bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 hover:opacity-75 transition hover:scale-105 duration-250 ease-in-out active:scale-95"
             onClick={() => signIn("github")}
           >
             <svg
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             </span>
 
             <button
-              className="font-bold focus-visible:ring-2 focus-visible:outline-none text-blue-500 hover:underline"
+              className="bg-clip-text bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 font-bold focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:outline-none text-transparent hover:opacity-75 transition-opacity duration-250 ease-in-out hover:underline"
               onClick={() => signOut()}
             >
               Logout?

@@ -15,3 +15,8 @@ and add them to your `.env.local` file
 # If pnpm is not installed, run `npm install -g pnpm`
 pnpm install && pnpm dev
 ```
+
+## Screenshots
+
+![Screenshot of logged out state](screenshots/logged_out.png)
+![Screenshot of logged in state](screenshots/logged_in.png)
