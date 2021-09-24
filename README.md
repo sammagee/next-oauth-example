@@ -2,6 +2,10 @@
 
 This is a simple OAuth example, built with API routes in Next.js.
 
+## Demo
+
+A demo has been deployed here: [next-oauth-example.sammagee.me](https://next-oauth-example.sammagee.me)
+
 ## Usage
 
 ```bash
