@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
         {!loading && !data && (
           <button
-            className="flex items-center px-5 space-x-2 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-200 shadow-xl py-3 text-lg font-medium text-white bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 hover:opacity-75 transition hover:scale-105 duration-250 ease-in-out active:scale-95"
+            className="flex items-center px-5 space-x-2 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-200 shadow-xl py-3 text-lg font-medium text-white bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 hover:opacity-75 transition hover:scale-105 duration-250 ease-in-out active:scale-95 select-none"
             onClick={() => signIn("github")}
           >
             <svg
