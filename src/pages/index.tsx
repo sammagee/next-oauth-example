@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         )}
 
         {!loading && data && data.user && (
-          <h1 className="flex items-center text-2xl font-bold space-x-1">
+          <h1 className="flex flex-col md:flex-row items-center text-2xl font-bold space-x-1">
             <span>You made it in,</span>
 
             <span className="inline-flex items-center space-x-1">
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             </span>
 
             <button
-              className="bg-clip-text bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 font-bold focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:outline-none text-transparent hover:opacity-75 transition-opacity duration-250 ease-in-out hover:underline"
+              className="font-bold focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-opacity-50 focus-visible:outline-none text-pink-500 hover:opacity-75 transition-opacity duration-250 ease-in-out hover:underline"
               onClick={() => signOut()}
             >
               Logout?
